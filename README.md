@@ -20,3 +20,8 @@ Please follow the below instructions on how to submit your answers.
 Given the following dataset in `ClusterPlot.csv`, determine the number of clusters by using any clustering algorithm. **You're allowed to use any Python library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file.
+
+
+## Solution for Question One
+I used the libraries numpy, pandas, matplotlib.plot, sklearn.cluster and sklearn.metrics.
+I used the KMeans algorithm to cluster the data based on the num of clusters that I gave to kmeans as a parameter and then I used the silhouette score method which judges the quality of the cluster and I picked a range of 2 through 19 clusters and I picked the one that had the highest score which is clearly 2 for this data.
